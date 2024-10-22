@@ -6,18 +6,18 @@ This is a complete workflow of phytop (https://github.com/zhangrengang/phytop), 
 
 ### Workflow ###
 ```
-#pre-process the example data:
+# pre-process the example data:
 cat ./cds/Carya_illinoinensis.cds.fasta ./OrthoFinder/Juglans_regia.cds.fasta ./OrthoFinder/Juglans_sigillata.cds.fasta ./OrthoFinder/Juglans_mandshurica.cds.fasta ./OrthoFinder/Juglans_nigra.cds.fasta > cds.fa
 cat ./OrthoFinder/Carya_illinoinensis.fasta ./OrthoFinder/Juglans_regia.fasta ./OrthoFinder/Juglans_sigillata.fasta ./OrthoFinder/Juglans_mandshurica.fasta ./OrthoFinder/Juglans_nigra.fasta > pep.faa
 
-#Using orthofinder to identify orthologs gene pairs between species
+# Using orthofinder to identify orthologs gene pairs between species
 orthofinder -f OrthoFinder/ -M msa -t 60
 
 OFresult=OrthoFinder/OrthoFinder/*/
 soi-orth uniqlogs $OFresult
 cat orthologs.txt inparalogs2.txt > pairs.homology
 
-#Confirmation of orthologs gene pairs between species identified by orthofinder using MCScanX_h, screening for reliability results in orthologs
+# Confirmation of orthologs gene pairs between species identified by orthofinder using MCScanX_h, screening for reliability results in orthologs
 ln ../all_species_gene.gff pairs.gff -s
 MCScanX_h pairs -a -b 0 -c 0 > MCScanX_h.out 2>&1
 
