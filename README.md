@@ -7,7 +7,7 @@ This is a complete workflow of phytop (https://github.com/zhangrengang/phytop), 
 ### Workflow ###
 ```
 # pre-process the example data:
-cat ./cds/Carya_illinoinensis.cds.fasta ./OrthoFinder/Juglans_regia.cds.fasta ./OrthoFinder/Juglans_sigillata.cds.fasta ./OrthoFinder/Juglans_mandshurica.cds.fasta ./OrthoFinder/Juglans_nigra.cds.fasta > cds.fa
+cat ./cds/Carya_illinoinensis.cds.fasta ./cds/Juglans_regia.cds.fasta ./cds/Juglans_sigillata.cds.fasta ./cds/Juglans_mandshurica.cds.fasta ./cds/Juglans_nigra.cds.fasta > cds.fa
 cat ./OrthoFinder/Carya_illinoinensis.fasta ./OrthoFinder/Juglans_regia.fasta ./OrthoFinder/Juglans_sigillata.fasta ./OrthoFinder/Juglans_mandshurica.fasta ./OrthoFinder/Juglans_nigra.fasta > pep.faa
 
 # Using orthofinder to identify orthologs gene pairs between species
