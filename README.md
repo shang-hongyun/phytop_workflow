@@ -40,7 +40,7 @@ Wang Y, Tang H, Debarry JD, et al. MCScanX: a toolkit for detection and evolutio
 ```
 if you use the SOI, please cite:
 ```
-Zhang RG, Shang HY, Milne RI, et al. SOI: robust identification of orthologous synteny with the Orthology Index and broad applications in evolutionary genomics. Nucleic Acids Res. 2025;53(7):gkaf320. doi:10.1093/nar/gkaf320
+Zhang RG, Shang HY, Milne RI, et al. SOI: robust identification of orthologous synteny with the Orthology Index and broad applications in evolutionary genomics. Nucleic Acids Res. 2025;53(7):gkaf320. https://doi.org/10.1093/nar/gkaf320
         
         
 ```
