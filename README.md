@@ -35,9 +35,13 @@ phytop sog.sc.cds.mm0.5.genetrees.astral
 if you use the MCScanX, please cite:
 ```
 Wang Y, Tang H, Debarry JD, et al. MCScanX: a toolkit for detection and evolutionary analysis of gene synteny and collinearity. Nucleic Acids Res. 2012;40(7):e49. https://doi.org/10.1093/nar/gkr1293
+        
+        
 ```
 if you use the SOI, please cite:
 ```
-Zhang RG, Shang HY, Zhou MJ et. al. Robust identification of orthologous synteny with the Orthology Index and its applications in reconstructing the evolutionary history of plant genomes. bioRxiv, 2024 [http://doi.org/10.1101/2024.08.22.609065]
+Zhang RG, Shang HY, Milne RI, et al. SOI: robust identification of orthologous synteny with the Orthology Index and broad applications in evolutionary genomics. Nucleic Acids Res. 2025;53(7):gkaf320. doi:10.1093/nar/gkaf320
+        
+        
 ```
 >>>>>>> 455281e (first commit)
